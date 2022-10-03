@@ -5,7 +5,33 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Esercizio Responsive layout</title>
+      <!-- font awesome -->
+      <script src="https://kit.fontawesome.com/aad583881d.js" crossorigin="anonymous"></script>
+      <!-- /font awesome -->
       <link rel="stylesheet" href="css/style.css" />
    </head>
-   <body></body>
+   <body class="debug">
+      <header>
+         <div class="container flex-box content-between items-center">
+            <div class="header-logo">
+               <a href=""><img src="images/logo.png" alt="logo" class="fluid-img" /></a>
+            </div>
+            <nav>
+               <!-- mobile & tablet hamburger -->
+               <input type="checkbox" id="hamburger" name="hamburger" value="header-drop-down" />
+               <label for="hamburger"><i class="fa-solid fa-bars"></i></label>
+               <!-- mobile & tablet hamburger -->
+               <!-- dekstop nav menu -->
+               <ul class="list-inline">
+                  <li>Plannig</li>
+                  <li>Testimonials</li>
+                  <li>Features</li>
+                  <li>About Us</li>
+                  <li>Get Started</li>
+               </ul>
+               <!-- /dekstop nav menu -->
+            </nav>
+         </div>
+      </header>
+   </body>
 </html>

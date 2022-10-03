@@ -1,6 +1,23 @@
 /* ====================
       commons   
 ====================== */
+.container {
+   max-width: 75rem;
+   margin: 0 auto;
+   padding: 0.9375rem 1.875rem;
+}
+
+.flex-box {
+   display: flex;
+}
+
+.content-between {
+   justify-content: space-between;
+}
+
+.items-center {
+   align-items: center;
+}
 
 /* ====================
       typography   
@@ -9,6 +26,14 @@
 /* ====================
       utilities   
 ====================== */
+.list-inline {
+   display: flex;
+   list-style: none;
+}
+
+.fluid-img {
+   width: 100%;
+}
 
 /* ====================
       buttons   
