@@ -1,6 +1,6 @@
 /* debug */
 article {
-   height: 400px;
+   min-height: 250px;
    background-color: green;
 }
 .col {
@@ -40,5 +40,26 @@ article {
    }
    #planning .col {
       width: calc(50% - 0.9375rem * 2);
+   }
+}
+
+/* sezione testimonial */
+#testimonials article > * {
+   width: 100%;
+}
+
+.testimonial-photo > img {
+   border-radius: 50%;
+   aspect-ratio: 1;
+   object-fit: cover;
+}
+/* schermi più larghi di 768px */
+@media screen and (min-width: 768px) {
+   #testimonials .testimonial-photo {
+      width: 30%;
+   }
+
+   #testimonials .testimonial-words {
+      width: 70%;
    }
 }
