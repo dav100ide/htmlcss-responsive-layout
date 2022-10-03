@@ -1,10 +1,17 @@
 header {
    background-color: var(--secondary-color);
+   position: sticky;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 6969;
+   margin-bottom: 2rem;
 }
 header nav > .list-inline {
    display: none;
 }
 #hamburger {
+   /* input checkbox sempre nascosto */
    display: none;
 }
 /* targets schermi più larghi di 992px */
