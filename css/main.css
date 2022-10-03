@@ -1,26 +1,44 @@
 /* debug */
-#cards article {
-   height: 300px;
+article {
+   height: 400px;
    background-color: green;
 }
-/* sezione cards */
-#cards .col {
+.col {
    width: 100%;
    margin-bottom: 1.5625rem;
 }
-/* targets schermi più larghi di 768px */
+/* sezione cards */
+
+/* schermi più larghi di 768px */
 @media screen and (min-width: 768px) {
    #cards .col {
       width: calc(100% / 3 - 0.9375rem * 2);
+   }
+
+   .col {
       margin: 0.9375rem; /*gutter*/
    }
 
-   #cards > .flex-box {
+   .flex-box :has(.col) {
       margin: 0 -0.9375rem;
       /* allineamento gutter-container */
    }
 
    #cards .col:first-child {
       width: calc(100% / 3 * 2 - 0.9375rem * 2);
+   }
+}
+
+/* sezione planning */
+#planning {
+   background-color: var(--primary-color);
+}
+/* schermi più larghi di 992px */
+@media screen and (min-width: 992px) {
+   #planning > .flex-box {
+      align-items: flex-end;
+   }
+   #planning .col {
+      width: calc(50% - 0.9375rem * 2);
    }
 }

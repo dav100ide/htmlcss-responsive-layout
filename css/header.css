@@ -14,7 +14,7 @@ header nav > .list-inline {
    /* input checkbox sempre nascosto */
    display: none;
 }
-/* targets schermi più larghi di 992px */
+/* schermi più larghi di 992px */
 @media screen and (min-width: 992px) {
    label[for='hamburger'] {
       display: none;
