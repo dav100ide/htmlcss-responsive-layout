@@ -45,7 +45,7 @@ article {
 }
 
 /* sezione testimonial */
-#testimonials article > .testimonial-photo {
+#testimonials .testimonial-photo {
    width: 60%;
 }
 
