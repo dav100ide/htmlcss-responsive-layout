@@ -7,25 +7,26 @@ article {
    width: 100%;
    margin-bottom: 1.5625rem;
 }
+
 /* sezione cards */
 
 /* schermi più larghi di 768px */
 @media screen and (min-width: 768px) {
    #cards .col {
-      width: calc(100% / 3 - 0.9375rem * 2);
+      width: calc(100% / 3 - 1rem * 2);
    }
 
    .col {
-      margin: 0.9375rem; /*gutter*/
+      margin: 1rem; /*gutter*/
    }
 
-   .flex-box :has(.col) {
-      margin: 0 -0.9375rem;
+   .flex-box:has(.col) {
+      margin: 0 -1rem;
       /* allineamento gutter-container */
    }
 
    #cards .col:first-child {
-      width: calc(100% / 3 * 2 - 0.9375rem * 2);
+      width: calc(100% / 3 * 2 - 1rem * 2);
    }
 }
 
@@ -39,13 +40,13 @@ article {
       align-items: flex-end;
    }
    #planning .col {
-      width: calc(50% - 0.9375rem * 2);
+      width: calc(50% - 1rem * 2);
    }
 }
 
 /* sezione testimonial */
-#testimonials article > * {
-   width: 100%;
+#testimonials article > .testimonial-photo {
+   width: 60%;
 }
 
 .testimonial-photo > img {
@@ -61,5 +62,20 @@ article {
 
    #testimonials .testimonial-words {
       width: 70%;
+   }
+}
+
+/* sezione features */
+
+/* schermi più larghi di 768px */
+@media screen and (min-width: 768px) {
+   #features .col {
+      width: calc(50% - 1rem * 2);
+   }
+}
+
+@media screen and (min-width: 992px) {
+   #features .col {
+      width: calc(100% / 3 - 1rem * 2);
    }
 }
