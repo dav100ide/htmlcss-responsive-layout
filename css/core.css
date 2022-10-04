@@ -7,6 +7,9 @@
    padding: 1rem 1.875rem;
 }
 
+/* ====================
+      flex   
+====================== */
 .flex-box {
    display: flex;
 }
@@ -28,7 +31,12 @@
 /* ====================
       typography   
 ====================== */
-
+body {
+   font-family: "PT Sans", sans-serif;
+}
+.center-text {
+   text-align: center;
+}
 /* ====================
       utilities   
 ====================== */
@@ -40,9 +48,10 @@
 .fluid-img {
    width: 100%;
 }
-.center-text {
-   text-align: center;
-}
+
+/* ====================
+      card   
+====================== */
 
 /* ====================
       buttons   
