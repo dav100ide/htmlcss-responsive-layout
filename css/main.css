@@ -81,11 +81,16 @@ article {
 }
 
 /* sezione about-us */
-.linkedin-wrapper {
+.linkedin-wrapper.col {
    width: 60%;
 }
-@media screen and (min-wdth: 768px) {
-   .col.about-text {
-      width: calc(100% - 60%);
+
+/* schermi più larghi di 768px */
+@media screen and (min-width: 768px) {
+   .about-text.col {
+      width: calc(70% - 1rem * 2);
+   }
+   .linkedin-wrapper.col {
+      width: calc(30% - 1rem * 2);
    }
 }
