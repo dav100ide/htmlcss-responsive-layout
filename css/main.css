@@ -118,6 +118,8 @@ article {
 .testimony {
    margin-bottom: 1.2rem;
 }
+
+/* le due virgorette delle testimonianze */
 .testimony::before,
 .testimony::after {
    display: inline;
@@ -157,6 +159,9 @@ article {
    background-color: var(--primary-color);
    color: white;
 }
+#features .card > *:not(:last-child) {
+   margin-bottom: 1.875rem;
+}
 #features .card:not(p) {
    background-color: white;
    color: var(--primary-color);
@@ -166,14 +171,11 @@ article {
 }
 #features a.btn-primary {
    letter-spacing: 0.25rem;
-   margin-top: 1.875rem;
 }
 #features .card {
    flex-grow: 1;
 }
-.linkedin-info > p {
-   margin: 1.875rem 0;
-}
+
 /* schermi più larghi di 768px */
 @media screen and (min-width: 768px) {
    #features .col {
@@ -197,7 +199,9 @@ article {
 #about-us h2 {
    color: var(--primary-color);
 }
-
+.linkedin-info > p {
+   margin: 1.875rem 0;
+}
 .about-text > *:not(:last-child) {
    margin-bottom: 2.5rem;
 }
