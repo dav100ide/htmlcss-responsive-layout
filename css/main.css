@@ -217,3 +217,22 @@ article {
       width: calc(30% - 1rem * 2);
    }
 }
+/* sezione get-started */
+#get-started {
+   background-color: var(--primary-color);
+   color: white;
+}
+#get-started h4 {
+   font-weight: lighter;
+   font-size: 1rem;
+   opacity: 0.8;
+}
+#get-started strong {
+   color: #fdc15f;
+   font-size: 5rem;
+   margin: 5.3125rem 3.4375rem;
+}
+
+#get-started .container > *:not(strong) {
+   margin: 1.875rem 0;
+}

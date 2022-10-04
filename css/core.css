@@ -110,6 +110,9 @@ i {
 }
 
 .btn-xl {
+   padding: 1rem 4rem;
+   font-size: 1.5625rem;
+   border-radius: 2.5rem;
 }
 
 .btn-primary {
@@ -117,6 +120,8 @@ i {
 }
 
 .btn-secondary {
+   color: var(--primary-color);
+   background-color: white;
 }
 
 .btn-tertiary {
