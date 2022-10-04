@@ -197,11 +197,24 @@ article {
 #about-us h2 {
    color: var(--primary-color);
 }
+
 .about-text > *:not(:last-child) {
    margin-bottom: 2.5rem;
 }
 .linkedin-wrapper.col {
    width: 60%;
+}
+.linkedin-wrapper {
+   position: relative;
+}
+.linkedin-wrapper::before {
+   content: "\201C";
+   display: inline-block;
+   position: absolute;
+   top: -5rem;
+   right: 0;
+   font-size: 20rem;
+   color: var(--primary-color);
 }
 .linkedin-info > p {
    font-size: 1.75rem;
