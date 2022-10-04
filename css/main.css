@@ -5,7 +5,49 @@ article {
 }
 
 /* sezione cards */
+#cards .card {
+   background-color: var(--secondary-color-light);
+}
+#cards h3,
+#cards i:not(.btn i) {
+   color: var(--secondary-color);
+}
+#cards .card > i {
+   font-size: 8rem;
+}
+#cards h3,
+#cards .btn {
+   margin: 1.875rem 0;
+}
+#cards p {
+   color: #222222;
+   line-height: 1.7rem;
+}
+#cards .card:first-of-type {
+   padding-bottom: 0;
+}
+.download-img > img {
+   display: block;
+   /* tolgo i 4px degli inline-block */
+}
 
+@media screen and (min-width: 768px) {
+   .download-img {
+      width: 50%;
+   }
+}
+@media screen and (min-width: 992px) {
+   #cards .card:first-of-type {
+      display: flex;
+      flex-wrap: nowrap;
+   }
+   .download-info {
+      width: 50%;
+   }
+   .download-img {
+      align-self: flex-end;
+   }
+}
 /* schermi più larghi di 768px */
 @media screen and (min-width: 768px) {
    #cards .col {

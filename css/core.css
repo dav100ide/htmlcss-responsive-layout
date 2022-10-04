@@ -41,7 +41,15 @@ body {
 .center-text {
    text-align: center;
 }
-
+h2 {
+   font-size: 2.3rem;
+}
+h3 {
+   font-size: 2rem;
+}
+i {
+   padding-inline-end: 0.5rem;
+}
 /* ====================
       utilities   
 ====================== */
@@ -63,6 +71,8 @@ body {
 ====================== */
 
 .card {
+   border-radius: 1.25rem;
+   padding: 1.875rem 1.5rem;
 }
 
 /* ====================
@@ -70,11 +80,10 @@ body {
 ====================== */
 .btn {
    border-radius: 1.25rem;
-   background-color: white;
-   color: black;
+   color: white;
 }
 
-.btn-xs {
+.btn-circle {
 }
 
 .btn-sm {
@@ -82,6 +91,7 @@ body {
 }
 
 .btn-lg {
+   padding: 0.625rem 2.8125rem;
 }
 
 .btn-xl {
@@ -91,4 +101,13 @@ body {
 }
 
 .btn-secondary {
+}
+
+.btn-tertiary {
+   color: black;
+   background-color: white;
+}
+
+.btn-download {
+   background-color: var(--secondary-color);
 }
