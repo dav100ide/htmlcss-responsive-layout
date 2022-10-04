@@ -90,6 +90,7 @@ i {
       buttons   
 ====================== */
 .btn {
+   display: inline-block;
    border-radius: 1.25rem;
    color: white;
 }
@@ -105,6 +106,7 @@ i {
 
 .btn-lg {
    padding: 0.625rem 2.8125rem;
+   font-weight: bold;
 }
 
 .btn-xl {

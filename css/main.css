@@ -13,7 +13,7 @@ article {
    color: var(--secondary-color);
 }
 #cards .card > i {
-   font-size: 8rem;
+   font-size: 5.5rem;
 }
 
 #cards .btn {
@@ -153,11 +153,34 @@ article {
 }
 
 /* sezione features */
-
+#features {
+   background-color: var(--primary-color);
+   color: white;
+}
+#features .card:not(p) {
+   background-color: white;
+   color: var(--primary-color);
+}
+#features p {
+   color: lightslategray;
+}
+#features a.btn-primary {
+   letter-spacing: 0.25rem;
+   margin-top: 1.875rem;
+}
+#features .card {
+   flex-grow: 1;
+}
+.linkedin-info > p {
+   margin: 1.875rem 0;
+}
 /* schermi più larghi di 768px */
 @media screen and (min-width: 768px) {
    #features .col {
       width: calc(50% - 1rem * 2);
+   }
+   .about-text {
+      padding-right: 3.4375rem;
    }
 }
 
@@ -168,10 +191,23 @@ article {
 }
 
 /* sezione about-us */
+#about-us {
+   padding: 5rem 0;
+}
+#about-us h2 {
+   color: var(--primary-color);
+}
+.about-text > *:not(:last-child) {
+   margin-bottom: 2.5rem;
+}
 .linkedin-wrapper.col {
    width: 60%;
 }
-
+.linkedin-info > p {
+   font-size: 1.75rem;
+   color: var(--primary-color);
+   font-weight: bold;
+}
 /* schermi più larghi di 768px */
 @media screen and (min-width: 768px) {
    .about-text.col {
