@@ -6,7 +6,9 @@ header {
    right: 0;
    z-index: 6969;
    margin-bottom: 2rem;
+   color: white;
 }
+
 header nav > .list-inline {
    display: none;
 }
@@ -16,7 +18,7 @@ header nav > .list-inline {
 }
 /* schermi più larghi di 992px */
 @media screen and (min-width: 992px) {
-   label[for='hamburger'] {
+   label[for="hamburger"] {
       display: none;
    }
    header nav > .list-inline {
