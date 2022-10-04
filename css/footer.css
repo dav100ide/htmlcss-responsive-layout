@@ -2,3 +2,12 @@ footer {
    background-color: var(--footer-color);
    color: white;
 }
+
+footer .container > *:not(:last-child) {
+   margin-bottom: 4rem;
+}
+
+footer a {
+   color: #837fc1;
+   text-decoration: underline;
+}
