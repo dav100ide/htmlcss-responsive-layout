@@ -46,7 +46,12 @@ h2 {
 }
 h3 {
    font-size: 2rem;
+   margin: 1.875rem 0;
 }
+p {
+   line-height: 1.8rem;
+}
+
 i {
    padding-inline-end: 0.5rem;
 }
@@ -84,6 +89,8 @@ i {
 }
 
 .btn-circle {
+   border-radius: 50%;
+   padding: 1rem;
 }
 
 .btn-sm {
@@ -98,6 +105,7 @@ i {
 }
 
 .btn-primary {
+   background-color: var(--primary-color);
 }
 
 .btn-secondary {
